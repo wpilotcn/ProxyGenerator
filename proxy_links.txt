@@ -5,17 +5,17 @@ from datetime import datetime
 
 # URL and route information
 hysteria2_routes = [
-    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/config.json", "name": "ÏßÂ·Ò»"},
-    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/config.json", "name": "ÏßÂ·¶þ"},
-    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/2/config.json", "name": "ÏßÂ·Èý"},
-    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/2/config.json", "name": "ÏßÂ·ËÄ"}
+    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/config.json", "name": "çº¿è·¯ä¸€"},
+    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/config.json", "name": "çº¿è·¯äºŒ"},
+    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/2/config.json", "name": "çº¿è·¯ä¸‰"},
+    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/2/config.json", "name": "çº¿è·¯å››"}
 ]
 
 xray_routes = [
-    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/xray/config.json", "name": "ÏßÂ·Ò»"},
-    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/xray/config.json", "name": "ÏßÂ·¶þ"},
-    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/xray/2/config.json", "name": "ÏßÂ·Èý"},
-    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/xray/2/config.json", "name": "ÏßÂ·ËÄ"}
+    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/xray/config.json", "name": "çº¿è·¯ä¸€"},
+    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/xray/config.json", "name": "çº¿è·¯äºŒ"},
+    {"url": "https://gitlab.com/free9999/ipupdate/-/raw/master/xray/2/config.json", "name": "çº¿è·¯ä¸‰"},
+    {"url": "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/xray/2/config.json", "name": "çº¿è·¯å››"}
 ]
 
 def generate_hysteria2_link(config):
