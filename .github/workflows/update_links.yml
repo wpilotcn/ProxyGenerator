@@ -9,9 +9,9 @@ jobs:
   update-links:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # Updated from v2 to v3
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4  # Updated from v2 to v4
       with:
         python-version: '3.x'
     - name: Install dependencies
@@ -22,7 +22,7 @@ jobs:
       run: python proxy_link_generator.py
     - name: Commit and push if changed
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add proxy_links.txt
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update proxy links" && git push)
