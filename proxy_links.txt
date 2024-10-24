@@ -1,4 +1,4 @@
-Last updated: 2024-10-23 12:22:07
+Last updated: 2024-10-24 00:55:16
 
 Hysteria2 Links:
 线路一: hy2://dongtaiwang.com@185.22.152.93:47382/?insecure=1&sni=www.bing.com
