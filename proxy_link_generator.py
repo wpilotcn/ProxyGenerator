@@ -64,23 +64,23 @@ def try_get_config(urls):
 
 def generate_links():
     output = []
-    output.append(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    #output.append(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    output.append("Hysteria2:")
+    output.append("#Hysteria2:")
     for route_group in hysteria2_routes:
         config = try_get_config(route_group)
         if config:
             link = generate_hysteria2_link(config)
-            output.append(f"Route: {link}")
+            output.append(f"{link}")
         else:
             output.append("Route: Error - All URLs failed")
     
-    output.append("\nXray:")
+    output.append("#\nXray:")
     for route_group in xray_routes:
         config = try_get_config(route_group)
         if config:
             link = generate_xray_link(config)
-            output.append(f"Route: {link}")
+            output.append(f"{link}")
         else:
             output.append("Route: Error - All URLs failed")
     
