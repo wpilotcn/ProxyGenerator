@@ -1,7 +1,5 @@
-Last updated: 2024-10-26 02:55:43
-
-Hysteria2:
-Route: hy2://dongtaiwang.com@185.22.152.93:47382/?insecure=1&sni=www.bing.com
-
+#Hysteria2:
+hy2://dongtaiwang.com@185.22.152.93:47382/?insecure=1&sni=www.bing.com
+#
 Xray:
-Route: vmess://eyJ2IjogIjIiLCAicHMiOiAiIiwgImFkZCI6ICIxMDQuMjEuMjM4LjM1IiwgInBvcnQiOiAiMjA4NiIsICJpZCI6ICJlZTQyMGZkYS1lZmI3LTQ4YTgtOTI0OS04OTg3ZTM2ZWJkOWUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiaXAyMi45NDQ3NjA5Lnh5eiIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiIiwgImFkZCI6ICIxMDQuMjEuMjM4LjM1IiwgInBvcnQiOiAiMjA4NiIsICJpZCI6ICJlZTQyMGZkYS1lZmI3LTQ4YTgtOTI0OS04OTg3ZTM2ZWJkOWUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiaXAyMi45NDQ3NjA5Lnh5eiIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgInRscyI6ICIifQ==
