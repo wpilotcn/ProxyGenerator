@@ -5,6 +5,28 @@
 **Date:** 2024-10-26  
 **Version:** 1.2  
 𓆝 𓆟 𓆞 𓆟 𓆝 𓆟 𓆞 𓆟 𓆝 𓆟𓆝 𓆟𓆝 𓆟 𓆞 𓆟  
+# Key Changes Made to the Code
+
+## Restructured Routes
+- Restructured the routes into groups of URLs, where each group contains the same config with different sources.
+
+## Added Failover Logic
+- Added a `try_get_config` function that implements the failover logic:
+  - Tries each URL in sequence.
+  - Returns the first successful response.
+  - Returns `None` if all URLs fail.
+
+## Simplified Output Format
+- Removed Chinese characters.
+- Changed "线路一" etc. to simple "Route" labels.
+- Kept the structure clean and minimal.
+
+## Improved Error Handling
+- Improved error handling to handle complete group failures.
+- Added UTF-8 encoding specification when writing the file.
+
+## Summary
+The code will now try each backup URL in sequence if the primary URL fails, and will only output English text in the results file.
 ⠀⠀  
 免责声明:
 本项目为个人学习测试使用，禁止其他用途，非必要不 fork，可以给个小星星 (star)。
