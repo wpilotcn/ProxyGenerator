@@ -66,7 +66,7 @@ def generate_links():
     output = []
     #output.append(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    output.append("#Hysteria2:")
+    output.append("")
     for route_group in hysteria2_routes:
         config = try_get_config(route_group)
         if config:
@@ -75,7 +75,7 @@ def generate_links():
         else:
             output.append("Route: Error - All URLs failed")
     
-    output.append("#\nXray:")
+    output.append("\n")
     for route_group in xray_routes:
         config = try_get_config(route_group)
         if config:
